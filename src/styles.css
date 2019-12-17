@@ -95,6 +95,7 @@ hr {
 }
 .person {
   width: 10%;
+  border-radius: 100%;
 }
 .trademark {
   padding-top: 20px 0;

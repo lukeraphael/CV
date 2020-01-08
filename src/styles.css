@@ -32,10 +32,6 @@ h2 {
   font-weight: normal;
   color: #66bfbf;
 }
-h3 {
-  color: #11999e;
-  font-family: "Montserrat", sans-serif;
-}
 p {
   font-size: 1rem;
 }
@@ -53,9 +49,10 @@ hr {
   margin: 100px auto;
 }
 .skill-row {
-  width: 50%;
+  width: 35%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   line-height: 2;
 }
 .intro {
@@ -81,17 +78,26 @@ hr {
   left: 250px;
   bottom: 300px;
 }
-.computer {
-  width: 15%;
-  float: left;
-  margin-right: 30px;
-  margin-top: 10px;
+.javaImg {
+  width: 80px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flaticonRight {
+  width: 70px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .skill {
   width: 15%;
   float: right;
   margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 110px;
 }
 .person {
   width: 10%;
@@ -139,4 +145,9 @@ hr {
 .contact-me {
   margin: 0 auto;
   line-height: 2;
+}
+h3 {
+  color: #11999e;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }

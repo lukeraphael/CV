@@ -99,6 +99,14 @@ hr {
   margin-top: 30px;
   margin-bottom: 110px;
 }
+.jobExperience{
+  text-align: center;
+  margin-top: 40px;
+}
+.jobRole{
+  text-align: center;
+  margin-bottom: -10px;
+}
 .person {
   width: 10%;
   border-radius: 100%;
